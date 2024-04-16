@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "nit-picker"
 version = "0.1.0"
-description = ""
+description = "Nit-Picker is a tool for providing you with hacker news top stories based on your preferences."
 authors = ["MikaeelMF <mikaeelmayeli@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+jupyter = "^1.0.0"
 
 
 [build-system]

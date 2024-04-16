@@ -1,0 +1,1 @@
+The goal of this repository is to provide a neat picker for hacker news new stories. The user -which is me, or you:)- feeds an LLM model its desired keywords, and each new article goes through the model. Ultimately, if the model seems the article matches your preferences, it notifies of its existence with a summary.

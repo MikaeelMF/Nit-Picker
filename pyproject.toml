@@ -5,10 +5,14 @@ description = "Nit-Picker is a tool for providing you with hacker news top stori
 authors = ["MikaeelMF <mikaeelmayeli@gmail.com>"]
 readme = "README.md"
 
+# Specify the packages location
+packages = [
+    { include = "src" }
+]
+
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter = "^1.0.0"
-
 
 [build-system]
 requires = ["poetry-core"]
